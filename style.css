@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+  
+}
+body {
+  min-height: 100%;
+  padding: 0;
+}
+.bg-img {
+  background-image: url("img/montre.jpg");
+
+  min-height: 400px;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: relative;
+}
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  /*Position : fixed;*/
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.navbar {
+  position: fixed; 
+  bottom: 0; 
+  width: 100%;
+}
+
+
+
+
+.topnav1 {
+
+  background-color: #fff;
+  overflow: hidden;
+  
+
+}
+
+.topnav1 a {
+  position: center;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+.topnav1 input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: -2px;
+  margin-right: 16px;
+  font-size: 15px;
+}
+.frame1 h2 {
+text-align : center;
+font-family: "Lucida Console", Courier, monospace;
+}
+.frame2 h2 {
+text-align : center;
+font-family: "Lucida Console", Courier, monospace;
+}
+
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+ .button{ 
+	  float: right;
+	 
+ }
+
